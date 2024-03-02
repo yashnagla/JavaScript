@@ -13,7 +13,7 @@ let firstName = "Yash"
 let  age = 21
 let isLoggedIn = true
 
-console.log([firstName, age, isLoggedIn]);
+console.table([firstName, age, isLoggedIn]);
 
 // number => 2 to power 53
 // bigInt
@@ -21,5 +21,10 @@ console.log([firstName, age, isLoggedIn]);
 // boolean => true or false
 // null => standalone value or represents a value with no value at all
 // undefined => used when variable has not been assigned
+// symbol => unique
+
 // object => collection of properties and methods
-// symbol => 
+
+console.log(typeof firstName);
+console.log(typeof age);
+console.log(typeof isLoggedIn);
