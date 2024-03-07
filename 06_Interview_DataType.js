@@ -16,6 +16,20 @@ const anotherId = Symbol('123')
 const bigNumber =  1234567789098764322456778098765432123456790987564321n
 
 
-// Reference (Non Primitive) Type :- In JavaScript, there are 3 types :- Array, Objects and Function
+// Non Primitive (Reference) Type :- In JavaScript, there are 3 types :- Array, Objects and Function
 
-const heros = [""]
+// Array
+const heros = ["Shaktiman", "Naagraj", "Doga"]
+// Object
+let myObj = {
+    Fname: "Yash",
+    age: 22,
+    city: "Delhi"
+}
+// Function
+const myFunction = function(){
+    console.log("Hello World!!");
+}
+
+console.log(typeof  bigNumber);
+// https://262.ecma-international.org/5.1/#sec-11.4.3
